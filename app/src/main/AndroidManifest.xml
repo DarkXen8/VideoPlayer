@@ -10,7 +10,8 @@
         android:theme="@style/Theme.AppCompat">
 
         <activity android:name=".MainActivity"
-            android:exported="true"> <!-- 🔹 Agrega esta línea -->
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"> <!-- 🔹 Agrega esta línea -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
